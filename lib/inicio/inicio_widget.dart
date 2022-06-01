@@ -19,6 +19,7 @@ class _InicioWidgetState extends State<InicioWidget> {
   Widget build(BuildContext context) {
     return Scaffold(
       key: scaffoldKey,
+      debugShowCheckedModeBanner: false,
       appBar: AppBar(
         backgroundColor: FlutterFlowTheme.of(context).primaryColor,
         automaticallyImplyLeading: false,
