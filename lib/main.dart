@@ -38,6 +38,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'UIII Proyecto Final Melero Ayala Diego 6to I',
       localizationsDelegates: [
         FFLocalizationsDelegate(),
